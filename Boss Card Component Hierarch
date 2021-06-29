@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T01:17:54.359Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.2" etag="VEUAtjM8KuIKxGSJ72Xx" type="github"><diagram id="VMaqvkVjaGrQu9wuc5ud">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-29T01:51:24.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="4ENhvsbtHrWg_NHy_XlL" version="14.8.2" type="github">
+  <diagram id="VMaqvkVjaGrQu9wuc5ud" name="Page-1">
+    <mxGraphModel dx="2248" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-1" value="&lt;b&gt;&lt;u&gt;App&lt;br&gt;&lt;/u&gt;&lt;/b&gt;*utlize GET on api to render &quot;cards&quot; on page" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-4" value="&lt;b&gt;&lt;u&gt;Nav&lt;br&gt;&lt;/u&gt;&lt;/b&gt;Links to: home, create" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-6" value="&lt;u&gt;&lt;b&gt;Home&lt;/b&gt;&lt;br&gt;&lt;/u&gt;&amp;lt;intro banner&amp;gt;&lt;br&gt;&amp;lt;(sell card product w/ link to create)&amp;gt;&lt;br&gt;&amp;lt;(map cards)&amp;gt;&lt;br&gt;&lt;br&gt;[props]&lt;br&gt;-cards" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="250" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-9" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7zdXxBkV4Nxp_Zp1Axsa-4" target="7zdXxBkV4Nxp_Zp1Axsa-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-10" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7zdXxBkV4Nxp_Zp1Axsa-6" target="7zdXxBkV4Nxp_Zp1Axsa-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-12" value="&lt;u&gt;&lt;b&gt;Intro banner&lt;/b&gt;&lt;br&gt;&lt;/u&gt;-just an h1 and h2 with greeting to customer&lt;br&gt;-cool friendly backgroud, professional" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="220" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-13" value="&lt;u style=&quot;font-weight: bold&quot;&gt;Card List&lt;/u&gt;&lt;br&gt;-maps through all products&lt;br&gt;&lt;br&gt;[props]&lt;br&gt;-cards" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="390" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-14" value="&lt;b&gt;&lt;u&gt;Sell component&lt;/u&gt;&lt;/b&gt;&lt;br&gt;-simply sells the product&lt;br&gt;-several links to get &quot;/create&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="440" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-15" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7zdXxBkV4Nxp_Zp1Axsa-12" target="7zdXxBkV4Nxp_Zp1Axsa-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="300" as="sourcePoint" />
+            <mxPoint x="210" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-16" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7zdXxBkV4Nxp_Zp1Axsa-13" target="7zdXxBkV4Nxp_Zp1Axsa-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="300" as="sourcePoint" />
+            <mxPoint x="210" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-17" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7zdXxBkV4Nxp_Zp1Axsa-14" target="7zdXxBkV4Nxp_Zp1Axsa-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="300" as="sourcePoint" />
+            <mxPoint x="150" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-18" value="&lt;u style=&quot;font-weight: bold&quot;&gt;Create&lt;/u&gt;&lt;br&gt;&amp;lt;form&amp;gt;&lt;br&gt;&lt;br&gt;[props]&lt;br&gt;state of card&amp;nbsp;&lt;br&gt;&lt;br&gt;*utilize POST to submit form&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-20" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7zdXxBkV4Nxp_Zp1Axsa-18" target="7zdXxBkV4Nxp_Zp1Axsa-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="370" as="sourcePoint" />
+            <mxPoint x="340" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-21" value="&lt;u style=&quot;font-weight: bold&quot;&gt;Product Item&lt;/u&gt;&lt;br&gt;-component for individual item&lt;br&gt;&lt;br&gt;&amp;lt;(capable of editing item in case of typos)&amp;gt;&lt;br&gt;&lt;br&gt;[props]&lt;br&gt;-card&lt;br&gt;&lt;br&gt;[params]&lt;br&gt;id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-23" value="" style="endArrow=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7zdXxBkV4Nxp_Zp1Axsa-21" target="7zdXxBkV4Nxp_Zp1Axsa-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="320" as="sourcePoint" />
+            <mxPoint x="350" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-25" value="&lt;u style=&quot;font-weight: bold&quot;&gt;Form&lt;/u&gt;&lt;br&gt;contains inputs for:&amp;nbsp;&lt;br&gt;name, personal brand, description, skills, contact info&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;Edit&lt;/u&gt;&lt;/b&gt;&lt;br&gt;[?params]&lt;br&gt;displays filled in form allowing customer to edit&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-26" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7zdXxBkV4Nxp_Zp1Axsa-18" target="7zdXxBkV4Nxp_Zp1Axsa-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="430" as="sourcePoint" />
+            <mxPoint x="350" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7zdXxBkV4Nxp_Zp1Axsa-27" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7zdXxBkV4Nxp_Zp1Axsa-25" target="7zdXxBkV4Nxp_Zp1Axsa-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="430" as="sourcePoint" />
+            <mxPoint x="350" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
